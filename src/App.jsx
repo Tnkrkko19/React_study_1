@@ -1,5 +1,6 @@
+// eslintのエラーを消すためのコメントは共通ファイルを作成、このファイルの一番上、このファイルの該当箇所の前の行にコメントする
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
   const [num, setNum] = useState(0);
